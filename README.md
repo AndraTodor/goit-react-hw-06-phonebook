@@ -1,4 +1,4 @@
-📞 Contact Book Application
+### 📞 Contact Book Application
 
 Welcome to the Contact Book app, a simple and intuitive contact management
 application built with modern web development technologies. This app allows
@@ -6,7 +6,7 @@ users to save, search, and delete contacts, and it ensures data persistence
 using Redux Persist. The app is fully responsive and styled using modern CSS
 utilities.
 
-🚀 Features
+### 🚀 Features
 
 Add new contacts with name and phone number. Search contacts by name using a
 dynamic filter. Delete existing contacts with ease. Persistent contact storage
@@ -31,7 +31,7 @@ on all devices.
   **Tailwind CSS** - A utility-first CSS framework for creating a responsive and
   modern UI with minimal effort.
 
-📚 How to Use Add Contact:
+### 📚 How to Use Add Contact:
 
 Simply enter a contact name and phone number in the provided fields and click
 the "Add Contact" button. The contact will be saved to the list.  
@@ -41,5 +41,5 @@ the list.
 Persistent Storage: Your contacts will remain saved even after refreshing or
 closing the app, thanks to Redux Persist.
 
-✨ Live Demo You can see the app in action
+### ✨ Live Demo You can see the app in action
 <a href="https://andratodor.github.io/goit-react-hw-06-phonebook/">here</a>.
