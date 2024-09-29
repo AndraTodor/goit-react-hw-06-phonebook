@@ -41,5 +41,7 @@ the list.
 Persistent Storage: Your contacts will remain saved even after refreshing or
 closing the app, thanks to Redux Persist.
 
-### ✨ Live Demo You can see the app in action
-<a href="https://andratodor.github.io/goit-react-hw-06-phonebook/">here</a>.
+### ✨ Live Demo
+
+You can see the app in action
+[here](https://andratodor.github.io/goit-react-hw-06-phonebook/).
