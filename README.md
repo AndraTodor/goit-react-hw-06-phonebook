@@ -13,22 +13,23 @@ dynamic filter. Delete existing contacts with ease. Persistent contact storage
 using localStorage via Redux Persist. Fully responsive design for seamless use
 on all devices.
 
-🛠️ Technologies and 📦 Libraries used
+### 🛠️ Technologies and 📦 Libraries Used
 
-(https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat)React -
-The core library for building the user interface.
-(https://img.shields.io/badge/-Redux_Toolkit-764ABC?logo=redux&logoColor=white&style=flat)Redux
-Toolkit - State management library for handling application state.
-(https://img.shields.io/badge/-React_Redux-764ABC?logo=redux&logoColor=white&style=flat)React
-Redux - For connecting Redux state management with React components.
-(https://img.shields.io/badge/-Redux_Persist-3DDC84?logo=redux&logoColor=white&style=flat)Redux
-Persist - For persisting the state of the contacts into localStorage.
-(https://img.shields.io/badge/-nanoid-00C853?style=flat&logo=nano)nanoid -
-Atiny, secure, URL-friendly unique string ID generator used for generating
-contact IDs.
-(https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white&style=flat)Tailwind
-CSS - A utility-first CSS framework for creating a responsive and modern UI with
-minimal effort.
+- ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat)
+  **React** - The core library for building the user interface.
+- ![Redux Toolkit](https://img.shields.io/badge/-Redux_Toolkit-764ABC?logo=redux&logoColor=white&style=flat)
+  **Redux Toolkit** - State management library for handling application state.
+- ![React Redux](https://img.shields.io/badge/-React_Redux-764ABC?logo=redux&logoColor=white&style=flat)
+  **React Redux** - For connecting Redux state management with React components.
+- ![Redux Persist](https://img.shields.io/badge/-Redux_Persist-3DDC84?logo=redux&logoColor=white&style=flat)
+  **Redux Persist** - For persisting the state of the contacts into
+  localStorage.
+- ![nanoid](https://img.shields.io/badge/-nanoid-00C853?style=flat&logo=nano)
+  **nanoid** - A tiny, secure, URL-friendly unique string ID generator used for
+  generating contact IDs.
+- ![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white&style=flat)
+  **Tailwind CSS** - A utility-first CSS framework for creating a responsive and
+  modern UI with minimal effort.
 
 📚 How to Use Add Contact:
 
