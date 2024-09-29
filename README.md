@@ -1,36 +1,38 @@
-React homework template
-Functional Component and React Hooks
+📞 Contact Book Application Welcome to the Contact Book app, a simple and
+intuitive contact management application built with modern web development
+technologies. This app allows users to save, search, and delete contacts, and it
+ensures data persistence using Redux Persist. The app is fully responsive and
+styled using modern CSS utilities.
 
-useState hook Acesta este primul hook. E destul de simplu, dar totuși, cel mai important. Din denumire este clar că este asociat cu starea componentei. Datorită lui, componentele funcționale au o stare internă.
+🚀 Features Add new contacts with name and phone number. Search contacts by name
+using a dynamic filter. Delete existing contacts with ease. Persistent contact
+storage using localStorage via Redux Persist. Fully responsive design for
+seamless use on all devices.
 
-import { useState } from "react";
+🛠️ Technologies Used React - The core library for building the user interface.
+Redux Toolkit - State management library for handling application state. React
+Redux - For connecting Redux state management with React components. Redux
+Persist - For persisting the state of the contacts into localStorage. nanoid - A
+tiny, secure, URL-friendly unique string ID generator used for generating
+contact IDs. Tailwind CSS - A utility-first CSS framework for creating a
+responsive and modern UI with minimal effort.
 
-const App = () => { const [value, setValue] = useState(0);
-
-return (
-
-{value} <button type="button" onClick={() => setValue(value + 1)}> Increment value by 1
-); };
-useState creează o stare și o metodă care va modifica valoarea acesteia. Ca parametru, acest hook ia o stare inițială. În cazul nostru, numărul 0. Aici poate fi stocat orice tip de date.
-
-Hook-ul useState returnează o matrice de două elemente: primul este valoarea stării curente, iar al doilea este o funcție de modificare a stării care poate fi folosită oriunde. De exemplu, într-un handler de evenimente. React va stoca această stare între randări. Folosind destructurarea, putem specifica orice nume de variabilă.
-
-Ce este, de fapt, un hook? Hooks - sunt funcții pe care le putem folosi pentru «a ne conecta» la starea interioară a unei componente și la metodele din ciclul de viață a acesteia, dar și pentru a utiliza React fără clase. Hooks nu funcționează în cadrul claselor.
-
-useEffect hook Metodele ciclului de viață sunt utilizate pentru a efectua unele operații în diferite etape ale vieții componentei. De exemplu, solicitări de date către backend, adăugarea de listeners la anumite evenimente etc. Toate acestea se numesc «efecte secundare». Folosind useEffect în componente funcționale, putem realiza toate aceste «efecte», simulând trei metode din lifecycle - componentDidMount, componentDidUpdate, componentWillUnmount, combinându-le într-un singur API.
-
-import { useState, useEffect } from "react";
-
-const App = () => { const [value, setValue] = useState(0);
-
-useEffect(() => { document.title = You clicked ${value} times; });
-
-return (
-
-You clicked {value} times
-
-<button onClick={() => setValue(value + 1)}>Click me
-); };
-useEffect(callback, deps) ia două argumente:
-
-callback - o funcție în interiorul căreia se execută toată logica unui efect. De exemplu, solicitări către server, setarea handler-ului de evenimente pentru un document etc. dependencies - o matrice de variabile. Atunci când oricare dintre variabile se modifică, efectul va fi lansat și callback-ul va fi executat. Acestea pot fi date din state, props sau orice valoare locală din cadrul componentei. Dependențe Dacă nu vom trece o matrice de dependențe, efectul se va executa pentru fiecare randare a componentei. Tocmai datorită acestei matrice putem imita metode din lifecycle.
+📚 How to Use Add Contact: Simply enter a contact name and phone number in the
+provided fields and click the "Add Contact" button. The contact will be saved to
+the list. Search Contacts: Use the search bar to dynamically filter contacts by
+name. Delete Contact: Click the "Delete" button next to any contact to remove it
+from the list. Persistent Storage: Your contacts will remain saved even after
+refreshing or closing the app, thanks to Redux Persist. 📦 Libraries
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat)
+React - https://react.dev/
+![Redux Toolkit](https://img.shields.io/badge/-Redux_Toolkit-764ABC?logo=redux&logoColor=white&style=flat)
+Redux Toolkit - https://redux-toolkit.js.org/
+![React Redux](https://img.shields.io/badge/-React_Redux-764ABC?logo=redux&logoColor=white&style=flat)
+React Redux - https://react-redux.js.org/
+![Redux Persist](https://img.shields.io/badge/-Redux_Persist-3DDC84?logo=redux&logoColor=white&style=flat)
+Redux Persist - https://github.com/rt2zz/redux-persist
+![nanoid](https://img.shields.io/badge/-nanoid-00C853?style=flat&logo=nano)
+nanoid - https://github.com/ai/nanoid
+![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white&style=flat)
+Tailwind CSS - https://tailwindcss.com/ ✨ Live Demo You can see the app in
+action here.
